@@ -81,7 +81,7 @@ public class objectInfo : MonoBehaviour
 
     IEnumerator pressE()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         noteUI.SetActive(true);
         pickUpSound.Play();
         pickUpText.SetActive(false);
